@@ -15,7 +15,6 @@ int _printf(const char *format, ...)
         len++;
     new_len = len;
     va_start (specs, format);
-
     for (i = 0; i < len; i++)
     {
         if (format[i] == '%')
