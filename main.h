@@ -8,5 +8,5 @@ int _printf(const char *format, ...);
 void print_number(int n);
 void print_string(char *str);
 
-#endif // _main_h
+#endif
 

@@ -22,7 +22,7 @@ int _printf(const char *format, ...)
             switch (format[i+1])
             {
             case 'c':
-                _putchar(va_arg(specs, char *));
+                print_string(va_arg(specs, char *));
                 break;
             case 's':
                 arg_s = va_arg(specs, char *);

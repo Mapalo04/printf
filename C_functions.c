@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
+#include <unistd.h>
 
 /**
  * _putchar - writes a characcter to the screen
@@ -13,7 +14,7 @@
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
-};
+}
 
 /**
  * print_number - prints a number
@@ -44,7 +45,7 @@ void print_number(int n)
  */
 void print_string(char *str)
 {
-    int i, c;
+    int i;
 
     for (i = 0; str[i] != '\0'; i++)
         _putchar(str[i]);
