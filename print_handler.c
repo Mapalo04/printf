@@ -17,7 +17,7 @@
 	int i, unknow_len = 0, printed_chars = -1;
 	fmt_t fmt_types[] = {
 		{'c', print_char}, {'s', print_string}, {'%', print_percent},
-		{'i', print_int}, {'d', print_int}, {'b', print_binary},{'\0', NULL}
+		{'i', print_int}, {'d', print_int}, {'b', print_binary}, {'\0', NULL}
 		};
 	for (i = 0; fmt_types[i].fmt != '\0'; i++)
 	{
